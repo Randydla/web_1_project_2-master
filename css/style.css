@@ -5,6 +5,5 @@
 
 body {
     font-family: "Museo", sans-serif;
-    src: url(assets/textures/az_subtle.png);
-    width:100%;
+    src: url(assets/textures/az_subtle.png) format("png");
 }
