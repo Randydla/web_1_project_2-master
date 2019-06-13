@@ -3,7 +3,7 @@
     src: url(assets/fonts/museo/museo-300-webfont.ttf);
     }
 body {
-    background-image: url(assets/textures/fabric_plaid.png);
+    background-image: url(../assets/textures/fabric_plaid.png);
     font-family: museo;
     font-size: 18px;
     margin: 0;
@@ -59,7 +59,7 @@ a, nav p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(assets/images/IMG_1985.JPG);
+    background-image: url(../assets/images/IMG_1985.JPG);
     background-size: cover;
     height: 40vw;
 
@@ -109,7 +109,7 @@ a, nav p {
     margin-bottom: 2.5%;
 }
 .button, footer {
-    background-image: url(assets/textures/az_subtle.png);
+    background-image: url(../assets/textures/az_subtle.png);
     background-color: rgba(147, 140, 116, .5);
     background-blend-mode: multiply;
 }
@@ -195,6 +195,46 @@ h3 {
 header {
     display: flex;
     justify-content: space-between;
+}
+#profile_slideshow {
+    height: 60vh;
+}
+
+#alternate_imgs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 3.5%;
+}
+.slideshow, .profile_gallery, #profile_box {
+    border: solid 10px white;
+}
+
+.profile_gallery {
+    width: 30%;
+}
+
+#left_content {
+    width: 60vw;
+}
+
+#right_content {
+    width: 28vw;
+}
+
+#profile_box {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .8rem;
+    background-color: white;
+}
+
+.profile_img {
+    width: 25%;
+    margin-left: .8rem;
 }
 
 @media (max-width: 850px) {
