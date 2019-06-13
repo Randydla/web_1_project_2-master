@@ -3,7 +3,7 @@
     src: url(assets/fonts/museo/museo-300-webfont.ttf);
     }
 body {
-    background-image: url(https://github.com/Randydla/web_1_project_2-master/blob/master/assets/textures/fabric_plaid.png?raw=true);
+    background-image: url(assets/textures/fabric_plaid.png);
     font-family: museo;
     font-size: 18px;
     margin: 0;
@@ -59,7 +59,7 @@ a, nav p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url(https://d3vhc53cl8e8km.cloudfront.net/hello-staging/wp-content/uploads/2019/05/23054815/EDCLV2019_0517_212638-4935_TJH.jpg);
+    background-image: url(assets/images/IMG_1985.JPG);
     background-size: cover;
     height: 40vw;
 
@@ -109,7 +109,7 @@ a, nav p {
     margin-bottom: 2.5%;
 }
 .button, footer {
-    background-image: url(https://github.com/Randydla/web_1_project_2-master/blob/master/assets/textures/az_subtle.png?raw=true);
+    background-image: url(assets/textures/az_subtle.png);
     background-color: rgba(147, 140, 116, .5);
     background-blend-mode: multiply;
 }
